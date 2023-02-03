@@ -1,0 +1,156 @@
+﻿/* Modal CSS */
+.modal {
+    background-color: rgba(10,10,10,.8);
+    width: 100%;
+    text-align: center;
+}
+
+.modal-dialog {
+    margin: 3% 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.modal-content {
+    display: inline-block;
+    min-width: 800px;
+    width: 100%;
+}
+
+.modal-body .cardmodal {
+    display: inline;
+    margin: 5px 15px;
+    float: left;
+}
+
+.modal-body .cardmodal img {
+    width: 350px;
+}
+
+.modal-body .modal-text {
+    text-align: left;
+    margin: 10px 10px;
+    display: inline;
+}
+
+.modal-body .modal-buttons {
+    display: inline-block;
+}
+
+.modal-buttons button {
+    margin: 5px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.modal-add-button {
+    background-color: darkblue;
+    color: white;
+}
+
+.modal-remove-button {
+    background-color: darkred;
+    color: white;
+}
+
+.modal-buttons button:disabled {
+    background-color: darkgray;
+}
+
+/* Search Form CSS */
+#SearchForm {
+    width: 50%;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: lightgrey;
+    padding: 8px 10px;
+    margin: auto;
+    text-align: center;
+}
+
+#SearchForm #search-basic {
+    text-align: center;
+    width: 100%;
+    padding: 0px 15px;
+}
+
+#SearchForm #search-basic input {
+    width: 85%;
+}
+
+#SearchForm #search-extra input {
+    text-align: center;
+    width: 100%;
+    padding: 0px 15px;
+}
+
+/* Deckbuilder Page CSS */
+
+.searchresults {
+    max-width: 1700px;
+    max-height: 800px;
+    overflow: scroll;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.searchresults .fe-card {
+    display: inline;
+}
+
+.searchresults .fe-card img {
+    max-width: 150px;
+    min-width: 120px;
+    margin: 5px 5px;
+}
+
+.searchresults h4 {
+    text-align: left;
+    margin: 5px 10px;
+}
+
+.builder {
+    max-width: 1700px;
+    border: 1px solid black;
+    margin: auto;
+    min-height: 120px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 3px 10px;
+}
+
+.toolbar {
+    text-align: right;
+    margin: 1px 2%;
+    padding: 2px;
+    font-size: 30px;
+}
+
+button.link {
+    border: 0px solid transparent;
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+}
+
+.deck {
+    min-height: 120px;
+    overflow: auto;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.deck .fe-card {
+    display: inline;
+}
+
+.deck .fe-card img {
+    max-width: 150px;
+    min-width: 120px;
+    margin: 5px 5px;
+}
